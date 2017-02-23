@@ -2,7 +2,8 @@
 ## A short fizzbuzz challenge for Swift Navigation
 
 Tested on python 2.7 and 3.6.
-Run unit tests with `py.test swift_challenge.py -v`.
+To run unit tests, run `pip install -r requirements.txt` to install `py.test`
+followed by `py.test swift_challenge.py -v`.
 
 ## Sample output
 
