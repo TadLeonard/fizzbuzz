@@ -44,7 +44,7 @@ FizzBuzz
 Requires Python. Tested with Python 3.6 and 2.7. To set up your testing environment:
 
 1. Create a new virtualenv: `python3.6 -m venv swiftenv`
-2. Activate the virtualenv: `source swiftenv/bin/actiavte`
+2. Activate the virtualenv: `source swiftenv/bin/activate`
 3. Install the py.test package: `pip install -r requirements.txt`
 
 Run the unit tests with `py.test test.py -v`.
