@@ -13,10 +13,10 @@ the value F(n) otherwise.
 
 ## Usage
 
-From the command line: `swift_challenge.py [-h] num_iterations`. Sample output:
+From the command line: `schwifty.py [-h] num_iterations`. Sample output:
 
 ```
-$ python3.6 swift_challenge.py 20
+$ python3.6 schwifty.py 20
 1
 1
 BuzzFizz
@@ -47,4 +47,4 @@ Requires Python. Tested with Python 3.6 and 2.7. To set up your testing environm
 2. Activate the virtualenv: `source swiftenv/bin/actiavte`
 3. Install the py.test package: `pip install -r requirements.txt`
 
-Run the unit tests with `py.test swift_challenge.py -v`.
+Run the unit tests with `py.test test.py -v`.
