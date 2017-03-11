@@ -1,11 +1,19 @@
-# fizzbuzz
-## A short fizzbuzz challenge for Swift Navigation
+# FizzBuzz: a short coding challenge for Swift Navigation
 
-Tested on python 2.7 and 3.6.
-To run unit tests, run `pip install -r requirements.txt` to install `py.test`
-followed by `py.test swift_challenge.py -v`.
+The challenge:
+```
+In the programming language of your choice,
+write a program generating the first n Fibonacci numbers F(n), printing
+"Buzz" when F(n) is divisible by 3.
+"Fizz" when F(n) is divisible by 5.
+"FizzBuzz" when F(n) is divisible by 15.
+"BuzzFizz" when F(n) is prime.
+the value F(n) otherwise.
+```
 
-## Sample output
+## Usage
+
+From the command line: `swift_challenge.py [-h] num_iterations`. Sample output:
 
 ```
 $ python3.6 swift_challenge.py 20
@@ -30,3 +38,13 @@ BuzzFizz
 4181
 FizzBuzz
 ```
+
+## Installing, Testing
+
+Requires Python. Tested with Python 3.6 and 2.7. To set up your testing environment:
+
+1. Create a new virtualenv: `python3.6 -m venv swiftenv`
+2. Activate the virtualenv: `source swiftenv/bin/actiavte`
+3. Install the py.test package: `pip install -r requirements.txt`
+
+Run the unit tests with `py.test swift_challenge.py -v`.
